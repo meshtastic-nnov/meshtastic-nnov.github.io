@@ -1,3 +1,9 @@
+---
 theme: jekyll-theme-minimal
-title: NN Mesh 
+title: NN Mesh
 description: Nizhniy Novgorod Meshtastic User Group
+exclude:
+  - DEVELOPMENT.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,15 @@
+---
+- title: Железо
+  url: hardware
+
+- title: Софт
+  url: software
+
+- title: Настройки
+  url: configuration
+
+- title: FAQ
+  url: faq
+
+- title: Полезные ссылки
+  url: links
