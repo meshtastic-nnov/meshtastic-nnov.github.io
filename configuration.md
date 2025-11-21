@@ -56,7 +56,7 @@ tags: home
 
 |  ![Выключить HAM](assets/img/config-01.jpg)  |  ![Зеленый замок](assets/img/config-02.jpg)  |
 | :--- | ---: |
-
+|      |      |
 
 ### Общий канал
 
