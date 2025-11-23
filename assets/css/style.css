@@ -328,7 +328,12 @@ h6 {
   margin: 0 0 20px;
 }
 
-p,
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 0 0 20px;
+}
+
 ul,
 ol,
 table,
