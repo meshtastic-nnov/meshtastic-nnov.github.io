@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: hardware
 ---
 ## Какую ноду выбрать для покупки или сборки?
 <br><br>

@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: faq
 ---
 
 ## F.A.Q

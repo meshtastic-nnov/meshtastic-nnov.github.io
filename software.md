@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: software
 ---
 
 ## Каким софтом прошивать ноду?
