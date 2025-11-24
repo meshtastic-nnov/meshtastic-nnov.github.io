@@ -2,7 +2,7 @@
 p {
     text-align: left;
     margin-bottom: 1em;
-    color: 303030;
+    color: #303030;
 }
 header {
     ul {
@@ -10,6 +10,10 @@ header {
     margin-block-start: 1.5em;
     margin-block-end: 1.5em;
     padding-inline-start: 0;
+    }
+    li{
+        border-bottom: 1px solid #f2f2f2;
+        padding: 4px 0;
     }
     a{color: #303030}
     a:hover, a:focus {
