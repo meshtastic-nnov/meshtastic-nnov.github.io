@@ -6,14 +6,16 @@ p {
 header {
     ul {
     list-style-type: none;
-    margin-block-start: 0;
-    margin-block-end: 0;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+    padding-inline-start: 0;
     }
     a{color: #727272}
     a:hover, a:focus {
     color: #727272;
     text-decoration: underline;
     }
+    p{margin-bottom: 1.5em;}
 }
 
 
