@@ -5,7 +5,8 @@ tags: home
 ---
 # Настройки
 
-Официальный гайд по конфигурации: [https://meshtastic.org/docs/configuration/](https://meshtastic.org/docs/configuration/).
+Официальный гайд по конфигурации: 
+[https://meshtastic.org/docs/configuration/](https://meshtastic.org/docs/configuration/).
 
 ### Приложения
 
