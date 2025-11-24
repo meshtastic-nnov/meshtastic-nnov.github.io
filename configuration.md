@@ -3,7 +3,7 @@ layout: default
 permalink: configuration
 tags: home
 ---
-# Настройки
+## Настройки
 
 Официальный гайд по конфигурации: 
 [https://meshtastic.org/docs/configuration/](https://meshtastic.org/docs/configuration/).
