@@ -8,27 +8,32 @@ permalink: hardware
 
 Полный список поддерживаемых устройств (Officially Supported и Community Supported) можно посмотреть в [официальном прошивальщике](https://flasher.meshtastic.org/) при выборе оборудования.
 
-
-Популярные устройства от [Heltec](https://heltec.org/product-category/lora/meshtastic/), на [AliExpress](https://aliexpress.ru/wholesale?SearchText=heltec+meshtastic)
-
-Готовое портативное устройство [T-Echo](https://lilygo.cc/products/t-echo-meshtastic) от [LilyGo](https://lilygo.cc/collections/lilygo-with-meshtastic)
-
 Обратите внимание! Нижегородская mesh-сеть работает на частоте **433МГц**, частота 868МГц тоже развивается, но на данный момент таких узлов мало.
 Учитывайте это при покупке / заказе оборудования.
 
 ### Что проверено и рекомендуется
 
-В сети протестированы и стабильно работают сборки на основе двух проектов:
+#### Устройства от [Heltec](https://heltec.org/product-category/lora/meshtastic/) на [AliExpress](https://aliexpress.ru/wholesale?SearchText=heltec+meshtastic).
 
-#### Мобильная нода:
+* [Heltec V4](https://ali.click/kmulqw)
+* [Heltec MeshPocket powerbank](https://heltec.org/meshpocket) продаётся так же и на Ozon.
+* [Heltec ESP32 LoRa](https://sl.aliexpress.ru/p?key=TzWbV41) одно-платник (Heltec Wireless tracker)
 
-[Heltec ESP32 LoRa](https://sl.aliexpress.ru/p?key=TzWbV41) одно-платник (Heltec Wireless tracker)
+#### Устройства от [LilyGo](https://lilygo.cc/collections/lilygo-with-meshtastic) на [AliExpress](https://aliexpress.ru/store/2090076)
 
-#### Стационарная нода:
+* [T-Beam](https://ali.click/5gulqb)
+* [T-Echo](https://lilygo.cc/products/t-echo-meshtastic)
 
-[MeshAdventurer](https://github.com/chrismyers2000/MeshAdventurer)
+#### Модульные устройства от [RAKwireless](https://www.rakwireless.com/en-us/products/wisblock).
 
-С использованием радиомодулей от Ebyte [SX1268 E22-400M33S](https://www.cdebyte.com/products/E22-400M33S) и [SX1262 E22-900M33S](https://www.cdebyte.com/products/E22-900M33S).
+На AliExpress представлены представлены буквально одним магазином с дорогой доставкой, но которую можно размазать,
+если заказывать несколько позиций(разные модули, например, температура-давление) из этого магазина.
+
+* [StarterKit](https://ali.click/kdvlqo). Данный кит в большинстве случаев используется для сборки нод с солнечными батареями. А так же хорош в качестве DIY носимых нод из-за низкого энергопотребления.
+
+#### Open Source решениe [MeshAdventurer](https://github.com/chrismyers2000/MeshAdventurer)
+
+Используются продвинутые радиомодули от Ebyte [SX1268 E22-400M33S](https://www.cdebyte.com/products/E22-400M33S) и [SX1262 E22-900M33S](https://www.cdebyte.com/products/E22-900M33S).
 При заказе обратите внимание на букву `M` в маркировке радиомодуля, она означает интерфейс подключения по SPI.
 Существуют так же радиомодули c буквой `T` в маркировке, это означает интерфейс подключения UART.
 MeshAdventurer спроектирован для использования радиомодулей с SPI интерфейсом.
