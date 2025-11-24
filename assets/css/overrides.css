@@ -37,6 +37,18 @@ header {
   }
 }
 
+h3 {
+  margin-top: 2em;
+}
+
+h4 {
+  margin-top: 1.5em;
+}
+
+h5 {
+  margin-top: 1em;
+}
+
 /* Media queries */
 /* Styles for small phones */
 @media screen and (max-width: 420px) {}

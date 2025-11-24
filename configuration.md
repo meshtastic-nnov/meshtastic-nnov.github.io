@@ -3,42 +3,36 @@ layout: default
 ---
 ## Настройки
 
-Официальный гайд по конфигурации:
-[https://meshtastic.org/docs/configuration/](https://meshtastic.org/docs/configuration/).
-<br><br>
+Официальный гайд по конфигурации: [https://meshtastic.org/docs/configuration/](https://meshtastic.org/docs/configuration/).
 
 ### Приложения
 
-Нода настраивается через приложение Meshtastic установленное из Google Play, F-Droid, Apple App Store.
+Нода настраивается через приложение Meshtastic установленное из [Google Play]({{ site.data.links.soft.google }}), [F-Droid]({{ site.data.links.soft.fdroid }}), [Apple App Store]({{ site.data.links.soft.apple }}).
 
 Доступные приложения различаются по степени проработки UI/UX, имеют большой разброс в плане доступности того или иного функционала. На данном этапе самым функциональным и часто обновляемым яаляется приложение для Android.
-<br><br>
 
 #### Apple
 
-[https://apps.apple.com/us/app/meshtastic/id1586432531?l=ru](https://apps.apple.com/us/app/meshtastic/id1586432531?l=ru)
+[{{ site.data.links.soft.apple }}]({{ site.data.links.soft.apple }})
 
 В Apple App Store приложение для региона Россия отсутствует.
 Для установки следует воспользоваться аккаунтом для другого региона,
 либо временно сменить регион на вашем iOS устройстве.
-<br><br>
 
 #### Android
 
-[https://play.google.com/store/apps/details?id=com.geeksville.mesh&hl=en](https://play.google.com/store/apps/details?id=com.geeksville.mesh&hl=en)
+[{{ site.data.links.soft.google }}]({{ site.data.links.soft.google }})
 
 С недавнего времени и с установкой приложения под Android появились трудности, оно не всегда доступно на Google Play.
 Поэтому рекомендуется устанавливать его либо из F-Droid, либо скачав .apk из репозитория разработчика.
 
-[https://f-droid.org/en/packages/com.geeksville.mesh/](https://f-droid.org/en/packages/com.geeksville.mesh/)
+[{{ site.data.links.soft.fdroid }}]({{ site.data.links.soft.fdroid }})
 
-[https://github.com/meshtastic/Meshtastic-Android/releases](https://github.com/meshtastic/Meshtastic-Android/releases)
-<br><br>
+[{{ site.data.links.soft.github }}]({{ site.data.links.soft.github }})
 
 #### Web-клиент
 
-[https://client.meshtastic.org/](https://client.meshtastic.org/)
-<br><br>
+[{{ site.data.links.soft.web }}]({{ site.data.links.soft.web }})
 
 ### Подключение приложения к ноде
 
@@ -47,23 +41,19 @@ layout: default
 - По Bluetooth.
 - По WiFi, когда эта опция доступна у выбранного вами оборудования и предварительно настроены параметры подключения ноды к WiFi точке.
 - Удаленно, используя команды администратора. Будет рассмотрено ниже, требует предварительной настройки.
-<br><br>
 
 #### Bluetooth
 
 - Для выполнения подключения к ноде выполнить сопряжение в списке обнаруженные Bluetooth устройств.
 - Для устройства с экраном PIN для сопряжение отображается на экране, для устройств без экрана PIN по умолчанию 123456.
-<br><br>
 
 ### Настройки ноды
 
 В настоящий момент сообщество мештастеров Нижнего Новгорода договорилось об основных параметрах конфигурации нод.
-<br><br>
 
 #### Настройки «Нижний Новгород – 433MHz»
 
 - LoRa > Region: **Malaysia 433 MHz**
-- LoRa > Channels Preset: **LongFast**
 - LoRa > Modem preset: **LONG_FAST**
 - LoRa > Hop limit: **3**
   - Может быть установлено до 7, если ваша нода находится на окраине зоны покрытия.
@@ -73,11 +63,10 @@ layout: default
 - LoRa / Freq: должна сама выставиться в **433.875** (убедитесь, что это так).
 - Device > Role: **CLIENT**
   - **CLIENT_MUTE** если используется короткая неэффективная антенка “из коробки” или переносное устройство.
-  - **CLIENT_BASE** для стационарной ноды.
+  - **CLIENT_BASE** для стационарной ноды с хорошей антенной. Т.Н. нода на чердаке.
 - Device > Rebroadcast mode: **CORE_PORTNUMS_ONLY**
 - Device > Nodeinfo broadcast: **3600**
 - Device> POSIX Timezone: **MSK-3**
-<br><br>
 
 #### Настройки «Нижний Новгород – 868MHz»
 
@@ -86,21 +75,17 @@ layout: default
 - LoRa / Freq slot: **2**
 
 В результате частота должна быть **869.075** MHz.
-<br><br>
 
 ### Конфигурации ноды на примере приложения под Андроид
 
 Желтыми прямоугольниками помечены ключевые моменты. В примерах выставленны корректные значения.
-<br><br>
 
 #### Соединение с нодой
 [![Соединение с нодой](assets/img/01-Connection.png)](assets/img/01-Connection.png)
 Выбрать доступный способ подключения. После удачной попытки коннекта вы увидете примерно это.
-<br><br>
 
 #### Секция настроек
 [![Секция настроек](assets/img/02-Settings-main.png)](assets/img/02-Settings-main.png)
-<br><br>
 
 ##### LoRa
 [![LoRa](assets/img/03-Settings-Lora-01.png)](assets/img/03-Settings-Lora-01.png)
@@ -118,7 +103,6 @@ layout: default
 В случае стационарной сборки на модулях 33dBm, значение 22dBm подается на радиомодуль, и в итоге модуль выставляет значение 33dBm по факту. Тема неоднозначная, и желательно готовую сборку измерить на специальном приборе, измеряющем мощность радиосигнала.
 
 !!! Опция "Override Duty Cicles" - позволяет обойти локальные ограничения, принятые в некоторых странах, связанные с лимитом времени работы устройства на передачу. В приложении под Андроид недоступно. Рекомендуется включить, используя веб-клиент.
-<br><br>
 
 ##### Каналы
 [![Каналы](assets/img/05-Settings-Channels-LongFast.png)](assets/img/05-Settings-Channels-LongFast.png)
@@ -128,7 +112,6 @@ layout: default
 - точное расположение
 
 Рекомендуется убрать отображение с погрешностью, выставить “Precise Location”.
-<br><br>
 
 ##### Безопасность
 [![Безопасность](assets/img/06-Settings-Security-01.png)](assets/img/06-Settings-Security-01.png)
@@ -136,7 +119,6 @@ layout: default
 - приватный ключ
 
 Рекомендуется регулярно делать бекап ключей устройства и восстанавливать их в случае его перепрошивки со сбросом.
-<br><br>
 
 [![Безопасность](assets/img/07-Settings-Security-02.png)](assets/img/07-Settings-Security-02.png)
 - 3 слота для публичных ключей удаленного администрирования
@@ -144,7 +126,6 @@ layout: default
 [![Безопасность](assets/img/08-Settings-Security-03.png)](assets/img/08-Settings-Security-03.png)
 - Режим удаленно администрируемой ноды (оставить по дефолту, иначе у ноды выключатся Wifi b BT)
 - Устаревший режим удаленного администрирования (оставить по дефолту)
-<br><br>
 
 ##### Пользователь
 [![Пользователь](assets/img/09-Settings-User.png)](assets/img/09-Settings-User.png)
@@ -156,7 +137,6 @@ layout: default
 
 [![Пользователь](assets/img/09-01-Settings-User-02.png)](assets/img/09-01-Settings-User-02.png)
 - Зеленый замок
-<br><br>
 
 ##### Устройство
 [![Устройство](assets/img/10-Settings-Device-01.png)](assets/img/10-Settings-Device-01.png)
@@ -167,7 +147,6 @@ layout: default
 [![Устройство](assets/img/11-Settings-Device-02.png)](assets/img/11-Settings-Device-02.png)
 - Отключение мерцания светодиода. Актуально для автономных нод с целью экономии энергии.
 - Временная зона.
-<br><br>
 
 ##### Позиция
 [![Позиция](assets/img/12-Settings-Position-01.png)](assets/img/12-Settings-Position-01.png)
@@ -179,30 +158,25 @@ layout: default
 [![Позиция](assets/img/13-Settings-Position-02.png)](assets/img/13-Settings-Position-02.png)
 - Режим фиксированной позиции для стационарных нод.
 - Широта, толгота, высота над уровнем моря.
-<br><br>
 
 ##### Питание
 [![Питание](assets/img/14-Settings-Power.png)](assets/img/14-Settings-Power.png)
 - Режим экономии энергии. Применимо для автономных нод на солнечной батарее.
-<br><br>
 
 ##### Сеть
 [![Сеть](assets/img/15-Settings-Network.png)](assets/img/15-Settings-Network.png)
 - Включение WiFi
 - Параметры коннекта к вашей WiFi точке. Если включен режим WiFi, чаще всего режим Bluetooth становится недоступным.
 - Включение трансляции пакетов через UDP.
-<br><br>
 
 ##### Bluetooth
 [![Bluetooth](assets/img/16-Settings-Bluetooth.png)](assets/img/16-Settings-Bluetooth.png)
 - Включение связи с нодой по BT.
 - Режим передачи PIN при соединении. Для устройств с экраном доступен выбор - либо показать его на экране, либо зафиксировать.
-<br><br>
 
 ##### Разное
 [![Питание](assets/img/17-Settings-Other.png)](assets/img/17-Settings-Other.png)
 - Импорт и экспорт конфигурации.
-<br><br>
 
 ### Удаленное администрирование ноды
 
