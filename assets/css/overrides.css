@@ -1,0 +1,59 @@
+/* Fixes */
+p {
+  text-align: left;
+  margin-bottom: 1em;
+  color: #303030;
+}
+
+header {
+  h1 {
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+    padding-inline-start: 0;
+  }
+
+  li {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 4px 0;
+  }
+
+  a {
+    color: #303030
+  }
+
+  a:hover,
+  a:focus {
+    color: #303030;
+    text-decoration: underline;
+  }
+
+  p {
+    margin: 1.5em 0;
+  }
+}
+
+/* Media queries */
+/* Styles for small phones */
+@media screen and (max-width: 420px) {}
+
+/* Styles for tablets and large phones */
+@media screen and (min-width: 600px) {}
+
+/* Styles for larger screens */
+@media screen and (min-width: 992px) {}
+
+/* Styles for larger screens */
+@media screen and (min-width: 1599px) {
+  .wrapper {
+    width: 1200px;
+  }
+
+  section {
+    width: 860px;
+  }
+}
