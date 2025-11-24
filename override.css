@@ -5,13 +5,14 @@
 
 @media screen and (min-width: 600px) {
   /* Styles for tablets and large phones */
-    .wrapper {width: 800px;}
-    section {width: 600px;}
 }
 
 @media screen and (min-width: 992px) {
   /* Styles for larger screens */
+}
+
+@media screen and (min-width: 1599px) {
+  /* Styles for larger screens */
     .wrapper {width: 1200px;}
     section {width: 860px;}
 }
-
