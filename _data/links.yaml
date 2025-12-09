@@ -17,7 +17,7 @@
   url: https://meshtastic.org/docs/configuration/radio/device/#roles
 - title: Тесты по "живучести" разных устройств с батареями разной емкости в разных режимах.
   url: https://harukitoreda.github.io/Meshtastic-Experiments/Battery-Runtime-Tests
-  - title: Веб-клиент, нижегородское зеркало.
+- title: Веб-клиент, нижегородское зеркало.
   url: https://meshtastic.d-52.ru/
   
 page:
@@ -46,3 +46,4 @@ soft:
   github: https://github.com/meshtastic/Meshtastic-Android/releases
   apple: https://apps.apple.com/us/app/meshtastic/id1586432531
   web: https://client.meshtastic.org/
+  web-local: https://meshtastic.d-52.ru/
