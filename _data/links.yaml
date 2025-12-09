@@ -39,6 +39,8 @@ page:
     url: https://meshtastic.org/docs/configuration/radio/device/#roles
   - title: Тесты по "живучести" разных устройств с батареями разной емкости в разных режимах.
     url: https://harukitoreda.github.io/Meshtastic-Experiments/Battery-Runtime-Tests
+  - title: Веб-клиент, нижегородское зеркало.
+    url: https://meshtastic.d-52.ru/
 
 soft:
   google: https://play.google.com/store/apps/details?id=com.geeksville.mesh
