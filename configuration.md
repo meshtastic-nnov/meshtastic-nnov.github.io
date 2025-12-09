@@ -31,6 +31,12 @@ layout: default
 [{{ site.data.links.soft.github }}]({{ site.data.links.soft.github }})
 
 #### Web-клиент
+Официальный:
+[https://client.meshtastic.org/](https://client.meshtastic.org/)
+<br><br>
+Нижегородское зеркало:
+[https://meshtastic.d-52.ru/](https://meshtastic.d-52.ru/)
+<br><br>
 
 [{{ site.data.links.soft.web }}]({{ site.data.links.soft.web }})
 
