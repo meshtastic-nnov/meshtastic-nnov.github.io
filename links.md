@@ -1,9 +1,9 @@
 ---
 layout: default
-permalink: links
 ---
+
 ## Полезные ссылки
 
-{% for item in site.data.links %}
+{% for item in site.data.links.page %}
 * [{{ item.title}}]({{ item.url }})
 {% endfor %}

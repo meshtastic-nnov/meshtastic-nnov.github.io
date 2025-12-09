@@ -19,3 +19,30 @@
   url: https://harukitoreda.github.io/Meshtastic-Experiments/Battery-Runtime-Tests
   - title: Веб-клиент, нижегородское зеркало.
   url: https://meshtastic.d-52.ru/
+  
+page:
+  - title: База знаний Meshtastic на русском языке
+    url: https://outline.meshworks.ru/s/main
+  - title: Официальный сайт проекта Meshtastic
+    url: https://meshtastic.org/
+  - title: Meshtastic на Guthub
+    url: https://github.com/meshtastic
+  - title: Официальный веб-прошивальщик
+    url: https://flasher.meshtastic.org/
+  - title: Российское зеркало официального веб-прошивателя
+    url: https://flasher.meshtastic-alt.ru/
+  - title: Неофициальный прошивальщик
+    url: https://mrekin.duckdns.org/flasher/
+  - title: Официальный гайд по конфигурации
+    url: https://meshtastic.org/docs/configuration/
+  - title: Роли устройства в Meshtastic
+    url: https://meshtastic.org/docs/configuration/radio/device/#roles
+  - title: Тесты по "живучести" разных устройств с батареями разной емкости в разных режимах.
+    url: https://harukitoreda.github.io/Meshtastic-Experiments/Battery-Runtime-Tests
+
+soft:
+  google: https://play.google.com/store/apps/details?id=com.geeksville.mesh
+  fdroid: https://f-droid.org/en/packages/com.geeksville.mesh/
+  github: https://github.com/meshtastic/Meshtastic-Android/releases
+  apple: https://apps.apple.com/us/app/meshtastic/id1586432531
+  web: https://client.meshtastic.org/
