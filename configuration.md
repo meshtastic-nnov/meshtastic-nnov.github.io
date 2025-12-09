@@ -38,8 +38,11 @@ tags: home
 <br><br>
 
 #### Web-клиент
-
+Официальный:
 [https://client.meshtastic.org/](https://client.meshtastic.org/)
+<br><br>
+Нижегородское зеркало:
+[https://meshtastic.d-52.ru/](https://meshtastic.d-52.ru/)
 <br><br>
 
 ### Подключение приложения к ноде
