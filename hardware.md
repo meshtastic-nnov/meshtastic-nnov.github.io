@@ -15,9 +15,9 @@ layout: default
 В сети протестированы и стабильно работают сборки на основе двух проектов:
 #### Устройства от [Heltec](https://heltec.org/product-category/lora/meshtastic/) на [AliExpress](https://aliexpress.ru/wholesale?SearchText=heltec+meshtastic).
 
+* [Heltec V3](https://sl.aliexpress.ru/p?key=TzWbV41)
 * [Heltec V4](https://ali.click/kmulqw)
 * [Heltec MeshPocket powerbank](https://heltec.org/meshpocket) продаётся так же и на Ozon.
-* [Heltec ESP32 LoRa](https://sl.aliexpress.ru/p?key=TzWbV41) одно-платник (Heltec Wireless tracker)
 
 #### Устройства от [LilyGo](https://lilygo.cc/collections/lilygo-with-meshtastic) на [AliExpress](https://aliexpress.ru/store/2090076)
 
@@ -26,7 +26,6 @@ layout: default
 
 #### Модульные устройства от [RAKwireless](https://www.rakwireless.com/en-us/products/wisblock).
 
-[Heltec ESP32 LoRa](https://sl.aliexpress.ru/p?key=TzWbV41) одно-платник (Heltec Wireless tracker)
 На AliExpress представлены представлены буквально одним магазином с дорогой доставкой, но которую можно размазать,
 если заказывать несколько позиций(разные модули, например, температура-давление) из этого магазина.
 
