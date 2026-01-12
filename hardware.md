@@ -15,9 +15,9 @@ layout: default
 В сети протестированы и стабильно работают сборки на основе двух проектов:
 #### Устройства от [Heltec](https://heltec.org/product-category/lora/meshtastic/) на [AliExpress](https://aliexpress.ru/wholesale?SearchText=heltec+meshtastic).
 
-* [Heltec V3](https://sl.aliexpress.ru/p?key=TzWbV41)
-* [Heltec V4](https://ali.click/kmulqw)
-* [Heltec MeshPocket powerbank](https://heltec.org/meshpocket) продаётся так же и на Ozon.
+* [Heltec V3](https://heltec.org/project/wifi-lora-32-v3/) на [AliExpress](https://aliexpress.ru/wholesale?SearchText=heltec+lora+v3)
+* [Heltec V4](https://heltec.org/project/wifi-lora-32-v4/) на [AliExpress](https://aliexpress.ru/wholesale?SearchText=heltec+lora+v4)
+* [Heltec MeshPocket powerbank](https://heltec.org/project/meshpocket/) на [AliExpress](https://aliexpress.ru/wholesale?SearchText=heltec+meshpocket+power+bank) и на [Ozon](https://www.ozon.ru/category/elektronika-15500/?category_was_predicted=true&deny_category_prediction=true&from_global=true&text=meshpocket).
 
 #### Устройства от [LilyGo](https://lilygo.cc/collections/lilygo-with-meshtastic) на [AliExpress](https://aliexpress.ru/store/2090076)
 
